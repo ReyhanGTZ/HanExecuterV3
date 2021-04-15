@@ -1,0 +1,48 @@
+.wrapper .textmid h1{
+    top: 32%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+}
+.wrapper .textmid h2{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    font-size:  2vw;
+}
+.wrapper .textmid h3{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: cyan;
+    border: 1px solid cyan;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.button:hover{
+    background-color: darkcyan;
+}
+    
+
